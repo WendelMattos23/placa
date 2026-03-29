@@ -1,0 +1,18 @@
+:root {
+  --bg-primary: #050b14;
+  --bg-secondary: #0b1728;
+  --glass-bg: rgba(10, 18, 30, 0.72);
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --accent-blue: #00d9ff;
+  --accent-green: #00ffb3;
+  --text-primary: #ffffff;
+  --text-secondary: rgba(255, 255, 255, 0.72);
+}
+
+body {
+  background:
+    radial-gradient(circle at top left, rgba(0, 255, 200, 0.12), transparent 30%),
+    radial-gradient(circle at bottom right, rgba(0, 140, 255, 0.12), transparent 30%),
+    linear-gradient(135deg, #07111f 0%, #0b1728 45%, #050b14 100%);
+  color: var(--text-primary);
+}
