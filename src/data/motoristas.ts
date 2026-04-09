@@ -5,7 +5,7 @@ export interface MotoristaItem {
 
 export const motoristasVale: MotoristaItem[] = [
   { nome: "JULIANA", cidade: "VALENÇA" },
-  { nome: "JOÃO VITOR", cidade: "VALENÇA" }
+  { nome: "JOÃO VITOR", cidade: "VALENÇA" },
   { nome: "ADRIANO", cidade: "VASSOURAS" },
   { nome: "MARIANA", cidade: "PIRAI" },
   { nome: "JACKSON", cidade: "BARRA DO PIRAI" },
